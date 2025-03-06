@@ -4,8 +4,12 @@ using System;
 
 class Program {
     static void Main() {
+ Division
         int num1, num2;
         double result;
+
+        int num1, num2, result;
+ Multiplication
 
         Console.Write("Enter first number: ");
         num1 = Convert.ToInt32(Console.ReadLine());
@@ -13,6 +17,7 @@ class Program {
         Console.Write("Enter second number: ");
         num2 = Convert.ToInt32(Console.ReadLine());
 
+ Division
         // Check for division by zero
         if (num2 == 0) {
             Console.WriteLine("Error! Division by zero is not allowed.");
@@ -20,5 +25,9 @@ class Program {
             result = (double)num1 / num2;
             Console.WriteLine("The result of division is: " + result);
         }
+        result = num1 * num2;
+
+        Console.WriteLine("The result of multiplication is: " + result);
+ Multiplication
     }
 }
