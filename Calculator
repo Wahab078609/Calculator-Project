@@ -1,5 +1,9 @@
 cout << "my Name is : " << "wahab ";
+ Conflict_branch2
+cout << " My roll no is : " << " 069 ";count<<"My fav color is : "<<"Pink";
+
 cout << " My roll no is : " << " 069 ";count<<"My fav color is : "<<"black";
+ main
 using System;
 
 class Program {
