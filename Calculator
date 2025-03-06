@@ -1,2 +1,24 @@
 cout << "my Name is : " << "wahab ";
 cout << " My roll no is : " << " 069 ";
+using System;
+
+class Program {
+    static void Main() {
+        int num1, num2;
+        double result;
+
+        Console.Write("Enter first number: ");
+        num1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter second number: ");
+        num2 = Convert.ToInt32(Console.ReadLine());
+
+        // Check for division by zero
+        if (num2 == 0) {
+            Console.WriteLine("Error! Division by zero is not allowed.");
+        } else {
+            result = (double)num1 / num2;
+            Console.WriteLine("The result of division is: " + result);
+        }
+    }
+}
