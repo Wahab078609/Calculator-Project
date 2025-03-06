@@ -1,5 +1,5 @@
 cout << "my Name is : " << "wahab ";
-cout << " My roll no is : " << " 069 ";
+cout << " My roll no is : " << " 069 ";count<<"My fav color is : "<<"Pink";
 using System;
 
 class Program {
